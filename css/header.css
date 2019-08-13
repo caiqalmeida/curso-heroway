@@ -5,7 +5,6 @@ header {
 }
 
 header::after {
-    height: 110vh;
     content: '';
     position: absolute;
     top: 0;

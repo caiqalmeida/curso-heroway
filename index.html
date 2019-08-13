@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/all.css" integrity="sha384-wxqG4glGB3nlqX0bi23nmgwCSjWIW13BdLUEYC4VIMehfbcro/ATkyDsF/AbIOVe" crossorigin="anonymous">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/index.css">
     <title>Grayscale</title>
@@ -82,7 +83,7 @@
                     <p>Another example of a project with its respective description. These sections work well
                         responsively
                         as well, try this theme on a small screen!</p>
-                        <hr class="hr-right">
+                    <hr class="hr-right">
                 </div>
                 <img src="img/demo-image-02.jpg" alt="" srcset="">
             </div>
@@ -94,35 +95,44 @@
 
     <!-- SECTION-CONTACT: START -->
 
+    <section class="section-updates">
+        <div class="w60 section-updates-container">
+            <div class="section-updates-card">
+                <i class="sub-icon far fa-paper-plane"></i>
+                <p class="section-updates-card-text">Subscribe to receive updates!</p>
+                <div class="section-updates-form">
+                    <input class="subscribe-input" type="email" name="email" id="" placeholder="ENTER EMAIL ADDRESS...">
+                    <button class="subscribe-btn">Subscribe</button>
+                </div>
+            </div>
+    </section>
+
     <section class="section-contact">
-        <div class="section-contact-container">
-
-            <div class="section-contact-card1">
-                <p>Subscribe to receive updates!</p>
-                <div class="section-contact-card1-form">
-                    <input type="email" name="email" id="" placeholder="ENTER EMAIL ADDRESS...">
-                    <button>Subscribe</button>
-                </div>
+        <div class="w60 section-contact-card">
+            <div class="section-contact-card-square">
+                <i class="fas fa-map-marked-alt"></i>
+                <p class="section-contact-card-square-text ">Address</p>
+                <hr class="hr-contact">
+                <p class="section-contact-card-square-description">4923 Market Street, Orlando FL</p>
             </div>
-
-            <div class="section-contact-card2">
-                <div class="section-contact-card2-square">
-                    <p>Address</p>
-                    <p>4923 Market Street, Orlando FL</p>
-                </div>
-                <div class="section-contact-card2-square">
-                    <p>Email</p>
-                    <p>hello@yourdomain.com</p>
-                </div>
-                <div class="section-contact-card2-square">
-                    <p>Phone</p>
-                    <p>+1 (555) 902-8832</p>
-                </div>
+            <div class="section-contact-card-square">
+                <i class="fas fa-envelope"></i>
+                <p class="section-contact-card-square-text ">Email</p>
+                <hr class="hr-contact">
+                <p class="email section-contact-card-square-description">hello@yourdomain.com</p>
             </div>
-
-
+            <div class="section-contact-card-square">
+                <i class="fas fa-mobile-alt"></i>
+                <p class="section-contact-card-square-text ">Phone</p>
+                <hr class="hr-contact">
+                <p class="section-contact-card-square-description">+1 (555) 902-8832</p>
+            </div>
         </div>
     </section>
+
+
+    </div>
+
 
     <!-- SECTION-CONTACT: START -->
 
@@ -130,12 +140,12 @@
 
 
     <footer>
-        <div class="footer-icons">
-            <i>twitter</i>
-            <i>facebook</i>
-            <i>github</i>
+        <div class="w60 footer-icons">
+            <a class="footer-icons-icon" href=""><i class="fab fa-twitter"></i></a>
+            <a class="footer-icons-icon" href=""><i class="fab fa-facebook-f"></i></a>
+            <a class="footer-icons-icon" href=""><i class="fab fa-github"></i></a>
         </div>
-        <p>Copyright Your Website 2019</p>
+        <p class="footer-text">Copyright © Your Website 2019</p>
     </footer>
 
     <!-- FOOTER: END --

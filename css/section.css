@@ -45,7 +45,8 @@
     line-height: 1.5rem;
 }
 
-.section-img-card1, .section-img-card2 {
+.section-img-card1,
+.section-img-card2 {
     display: flex;
     align-items: center;
 }
@@ -70,8 +71,6 @@
     font-size: 1.5rem;
 }
 
-
-
 .section-img-card2 {
     background-color: #050505;
     color: grey;
@@ -81,7 +80,7 @@
     width: 50%;
 }
 
- .section-img-card2-description {
+.section-img-card2-description {
     padding: 5rem;
     display: flex;
     flex-direction: column;
@@ -108,9 +107,173 @@
     margin: 0;
 }
 
-.hr-left {
+/* SECTION-IMG: END */
 
+/* SECTION-UPDATES: START */
+
+.section-updates {
+    background-image: url('../img/bg-signup.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 10rem 0;
+    position: relative;
+    z-index: 2;
+}
+
+.section-updates::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(to bottom, #050505 0%, #222222 75%, #111111 100%);
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.section-updates-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub-icon {
+    font-size: 2rem;
+    color: white;
+
+}
+
+.section-updates-card-text {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 3.5rem;
+}
+
+.section-updates-form {
+    display: flex;
+    align-items: space-around;
+}
+
+.subscribe-input {
+    width: 40rem;
+    height: 4rem;
+    padding: 1.5rem 2rem;
+    border-radius: 7px;
+    box-shadow: 1px 1px 2px black;
+}
+
+.subscribe-input::placeholder {
+    letter-spacing: 2px;
+}
+
+.subscribe-btn {
+    margin-left: .5rem;
+    height: 4rem;
+    padding: 1.5rem 2rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background-color: #58908C;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 1px 1px 2px black;
+}
+
+/* SECTION-UPDATES: END */
+
+/* SECTION-CONTACT: START */
+
+.section-contact {
+    background-color: #111111;
+    padding: 5rem 0;
+}
+
+.section-contact-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-contact-card-square {
+    background-color: white;
+    width: 30%;
+    padding: 3rem 3rem;
+    text-align: center;
+    border-bottom: #58908C solid 0.3rem;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+    border-radius: 3px;
+}
+
+.section-contact-card-square > i {
+    font-size: 1.3rem;
+    color: #58908C;
+}
+
+.section-contact-card-square-text {
+    text-transform: uppercase;
+}
+
+.hr-contact {
+    margin: 2rem auto; 
+    width: 30%;
+    border: #58908C solid 0.1rem;
+}
+
+.section-contact-card-square-description {
+    color: grey;
+}
+
+.email {
+    cursor: pointer;
+    color: #58908C;
+}
+
+.email:hover {
+    color: grey;
+}
+
+/* SECTION-CONTACT: END */
+
+/* FOOTER: START */
+
+footer {
+    background-color: #111111;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icons-icon {
+    margin: 0 .5rem;
+    background-color: white;
+    height: 3rem;
+    width: 3rem;
+    text-align: center;
+    line-height: 3rem;
+    border-radius: 50%;
+    background-color: #2E2E2E;
+}
+
+.footer-icons-icon i {
+    color: grey;
+    font-size: 1rem;
+}
+
+.footer-icons-icon i:hover {
+    color: white;
+}
+
+.footer-text {
+    margin:0;
+    padding: 5rem;
+    color: grey;
+    text-align: center;
 }
 
 
 
+
+/* FOOTER: END */

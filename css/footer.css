@@ -1,0 +1,35 @@
+footer {
+    background-color: #111111;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icons-icon {
+    margin: 0 .5rem;
+    background-color: white;
+    height: 3rem;
+    width: 3rem;
+    text-align: center;
+    line-height: 3rem;
+    border-radius: 50%;
+    background-color: #2E2E2E;
+}
+
+.footer-icons-icon i {
+    color: grey;
+    font-size: 1rem;
+}
+
+.footer-icons-icon i:hover {
+    color: white;
+}
+
+.footer-text {
+    margin:0;
+    padding: 5rem;
+    color: grey;
+    text-align: center;
+}
